@@ -1,14 +1,14 @@
-import TimerWithRestart from "./Timer/TimerWithRestart";
 import "./App.css";
+import TimerWrapper from "./Timer/TimerWrapper";
 
 function App() {
   const onExpire = () => {
-    console.log("Called");
+    console.log("Expired");
   };
 
   return (
     <div className="App">
-      <TimerWithRestart duration={20 * 1000} onExpire={onExpire} />
+      <TimerWrapper onExpire={onExpire} duration={10 * 1000} />
     </div>
   );
 }
