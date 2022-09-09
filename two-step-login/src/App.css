@@ -1,0 +1,14 @@
+.App {
+  text-align: center;
+  width: 400px;
+  margin: 100px auto;
+  border: 1px solid #eee;
+  padding: 10px;
+  height: 100px;
+}
+
+.App > section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
